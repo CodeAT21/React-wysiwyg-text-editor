@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+.clearfix{clear:both;}
+img {max-width: 100%;height: auto;}
+p{line-height: 1.8;font-family: 'Inter', sans-serif;}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {font-family: 'Inter', sans-serif;}
+a{ font-family: 'Inter', sans-serif;  text-decoration: none;}
+li{font-family: 'Inter', sans-serif;}
+dl, ol, ul { padding: 0;}
+* {word-break: break-word;}
+*, *::before, *::after {box-sizing: border-box;}
+.align__center{text-align: center;}
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+* {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+.container, .container-fluid {
+  width: 100%;
+	padding-right:15px;
+	padding-left:15px;
+	margin-right:auto;
+	margin-left:auto
+}
+
+@media (min-width:768px) {
+  .container { max-width:750px}
+}
+@media (min-width:992px) {
+  .container {  max-width:970px}
+}
+@media (min-width:1200px) {
+  .container {max-width:1200px}
+}

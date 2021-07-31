@@ -1,0 +1,119 @@
+.rdw-editor-main {
+  background-color: #f5f6f9;
+  border: 1px solid#eee;
+  margin-bottom: 17px;
+  padding: 7px 17px 7px 17px;
+  line-height: 27px;
+}
+.public-DraftEditor-content {
+  min-height: 300px;
+}
+.rdw-dropdown-optionwrapper {
+  width: 100%!important;
+}
+select, textarea, input[type="text"] {
+  margin: 0 !important;
+  border-radius: 8px;
+  border: 1px solid #F0F5F7;
+  padding: 5px 20px;
+  font-size: 15px;
+  background: #F0F5F7;
+  width: 100% !important;
+  color: #696969;
+  transition: all 0.3s ease-in-out 0s;
+  box-shadow: none;
+  height: 60px;
+}
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+label {
+  padding: 0;
+  font-size: 17px;
+  color: #202124;
+  font-weight: 500;
+  margin: 27px 0 10px;
+  display: block;
+}
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  letter-spacing: 0;
+  padding: 9px 30px;
+  font-size: 15px;
+  line-height: 2;
+  border-radius: 8px;
+  -webkit-user-select: none;
+  user-select: none;
+  transition: all 0.3s ease-in-out 0s;
+}
+.btn, button {
+  outline: none !important;
+}
+.btn__theme {
+  color: #fff;
+  background-color: #1967d2;
+  border-color: #1967d2;
+}
+.App{
+  position: relative;
+  float: left;
+  width: 100%;
+  display: block;
+  padding: 70px 0;
+}
+.App h1 {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 600;
+}
+.App h1 span{
+  color: #1967d2;
+}
+.post__list {
+  margin: 37px 0 17px 0;
+  border-bottom: 1px solid lavender;
+  padding-bottom: 17px;
+}
+.post__list h2 {
+  margin-bottom: 17px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.post__list p {
+  margin-bottom: 17px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #524c4c;
+}
+span.required {
+  color: #f44336;
+}
+form.update__forms {
+  border: 1px solid #1967d2;
+  box-shadow: 0 6px 15px 0 rgb(64 79 104 / 5%);
+  padding: 37px;
+}
+.errors{
+  color: #f44336;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 17px;
+}
+.btn__add{
+  margin: 37px auto;
+  display: table;
+  padding: 14px 37px 14px 37px;
+  font-size: 20px;
+  line-height: normal;
+}
